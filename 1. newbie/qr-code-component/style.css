@@ -35,6 +35,8 @@ body {
   width: 320px;
   height: 497px;
   padding: 16px;
+
+  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.0477);
 }
 
 .qr-code-image {

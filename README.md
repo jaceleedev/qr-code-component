@@ -17,12 +17,13 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-<img src="./desktop-screenshot.png" alt="desktop screenshot" width="780">
-<img src="./mobile-screenshot.png" alt="mobile screenshot" width="300">
+<img src="./images/desktop-screenshot.png" alt="desktop screenshot" width="780">
+<img src="./images/mobile-screenshot.png" alt="mobile screenshot" width="300">
 
 ### Links
 
 - Solution URL: [solution URL](https://github.com/jaceleedev/frontend-mentor/tree/main/1.%20newbie/qr-code-component)
+- Live URL: [live URL](https://jaceleedev.github.io/qr-code-component)
 
 ## My process
 

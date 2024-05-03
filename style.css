@@ -60,6 +60,7 @@ body {
 
 .qr-code-text-box > h1 {
   font-size: 22px;
+  line-height: 28px;
   color: var(--Dark-Navy);
 
   width: 288px;
@@ -68,6 +69,7 @@ body {
 
 .qr-code-text-box > p {
   font-size: 15px;
+  line-height: 19px;
   color: var(--Gray);
   letter-spacing: 0.188px;
 

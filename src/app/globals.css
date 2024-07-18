@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply flex justify-center items-center bg-light-gray;
+  @apply flex justify-center items-center w-screen h-screen bg-light-gray;
 
   @screen mobile {
     @apply pl-7 pr-[27px];

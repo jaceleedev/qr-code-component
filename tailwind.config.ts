@@ -46,7 +46,7 @@ const config: Config = {
           lineHeight: theme('lineHeight.normal') || '1.2',
           color: theme('colors.dark-navy') || '#1F314F',
         },
-        body: {
+        '.body': {
           fontFamily: theme('fontFamily.outfit') || 'var(--font-outfit)',
           fontSize: theme('fontSize.body') || '0.9375rem',
           fontWeight: theme('fontWeight.regular') || '400',

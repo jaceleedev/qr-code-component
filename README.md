@@ -1,36 +1,115 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend Mentor - QR code component solution
+
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- Scan the QR code to visit Frontend Mentor and take their coding skills to the next level
+
+### Screenshot
+
+<img src="./design/screenshot-desktop.png" height='200px'>
+<img src="./design/screenshot-mobile.png" height='200px'>
+
+### Links
+
+- Solution URL: [https://www.frontendmentor.io/solutions/qr-code-component-with-nextjs-tailwind-css-css-module-bem-7Fz9-EgtRX](https://www.frontendmentor.io/solutions/qr-code-component-with-nextjs-tailwind-css-css-module-bem-7Fz9-EgtRX)
+- Live Site URL: [qr-code-component-ten-pink.vercel.app](qr-code-component-ten-pink.vercel.app)
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running follow these simple steps:
+
+### Prerequisites
+
+Make sure you have the following software installed on your machine:
+
+- [Node.js](https://nodejs.org/) (Node.js 18.17 or later)
+- [pnpm](https://pnpm.io/)
+
+### Installation
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/jaceleedev/qr-code-component.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```sh
+   cd qr-code-component
+   ```
+
+3. Install dependencies using pnpm:
+
+   ```sh
+   pnpm install
+   ```
+
+4. Start the development server:
+
+   ```sh
+   pnpm dev
+   ```
+
+5. Open your browser and visit http://localhost:3000 to view the project.
+
+## My process
+
+### Built with
+
+- Next.js (v14.2.5)
+- TypeScript (v5)
+- Tailwind CSS (v3.4.1)
+- CSS Modules
+- CSS BEM methodology
+- Semantic HTML5 markup
+- SEO & web accessibility
+
+### What I learned
+
+During this project, I reinforced my skills in Next.js and Tailwind CSS. I learned the importance of project structure, specifically how creating folders named after components and using index.tsx files can simplify imports. This was a new insight compared to my previous project. This structure enhances the maintainability and readability of the code, making it easier to manage and scale.
+
+#### Code snippets:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+components
+└── QRCode
+    ├── index.tsx
+    └── index.module.css
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Continued development
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+In future projects, I aim to deepen my expertise in Next.js and Tailwind CSS, with a particular focus on optimizing project structure and embracing component-based architecture. My goal is to build more accessible and performant web applications, prioritizing seamless user experiences and scalable codebases.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Useful resources
 
-## Learn More
+- [Next.js Documentation](https://nextjs.org/docs) - Comprehensive guide to Next.js features and API.
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation) - Detailed documentation for Tailwind CSS.
 
-To learn more about Next.js, take a look at the following resources:
+## Author
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- GitHub - [@jaceleedev](https://github.com/jaceleedev)
+- Frontend Mentor - [@jaceleedev](https://www.frontendmentor.io/profile/jaceleedev)

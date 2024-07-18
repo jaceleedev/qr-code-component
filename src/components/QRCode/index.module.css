@@ -1,6 +1,10 @@
 .qr-code {
   @apply w-80 h-[497px] p-4 pb-10 rounded-[1.25rem] bg-white shadow-[0_25px_25px_0_rgba(0,0,0,0.05)];
 
+  &__image {
+    @apply rounded-[10px];
+  }
+
   &__content {
     @apply flex justify-center items-center flex-col gap-4 w-[288px] h-[129px] shrink-0 mt-6;
   }

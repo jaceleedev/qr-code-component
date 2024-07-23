@@ -28,8 +28,10 @@ Users should be able to:
 
 ### Screenshot
 
+<div style='display: flex; gap: 10px;'>
 <img src="./design/screenshot-desktop.png" height='200px'>
 <img src="./design/screenshot-mobile.png" height='200px'>
+</div>
 
 ### Links
 
